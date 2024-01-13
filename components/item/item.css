@@ -1,0 +1,37 @@
+.slider-item{
+    overflow: hidden;
+    margin: 0 4px;
+}
+.slider-item__description{
+    font-size: 2vw;
+    color: #7884A5;
+}
+.slider-item__date{
+    font-size: 1.2vw;
+    color: #A2ACC7;
+}
+.img__container{
+    position: relative;
+    height: 21vw;
+}
+.img__container.big{
+    width: 42vw;
+}
+.img__container.small{
+    width: 21vw;
+}
+.img__container.big + p{
+    max-width: 42vw;
+}
+.img__container.small + p{
+    max-width: 21vw;
+}
+.leaf-right{
+    border-radius: 13vw 0 13vw 0;
+}
+.leaf-left{
+    border-radius: 0 13vw 0 13vw;
+}
+.circle{
+    border-radius: 13vw;
+}   

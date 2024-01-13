@@ -1,0 +1,25 @@
+.slider{
+    width: 100%;
+    border-radius: 20px;
+    display: flex;
+    scroll-behavior: auto;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+.slider__btns{
+    display: flex;
+    justify-content: space-between;
+}
+.slider__btns img{
+    cursor: pointer;
+    transition: margin 0.5s;
+}
+.slider__btns img:hover{
+    margin: 0 5px;
+}
+
+
