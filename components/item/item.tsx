@@ -16,7 +16,9 @@ export const Item: React.FC<Item> = ({ item,shapeId }) =>{
               src={item.img}// Replace with your external image URL
               alt="Description of the image"
               fill
+              loading='lazy'
               quality={100}
+              sizes='(min-width:150px)'
               style={{
                   objectFit:'cover'
               }}
